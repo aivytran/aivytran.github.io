@@ -1,13 +1,30 @@
 <html>
   <head>
-    <title>DANCE DANCE REVOLUTION</title>
+    <title>Dance Dance Revolution</title>
+    <link rel="stylesheet" href="./css/master.css">
   </head>
 
   <body>
-    <canvas></canvas>
-    <h1>DANCE DANCE REVOLUTION</h1>
+    <script src="https://code.createjs.com/soundjs-0.6.2.min.js"></script>
+    <div class="area">Dance Dance Revolution</div>
+    <div class="score"> Score:
+      <div id="score"></div>
+    </div>
+    <canvas id="game-canvas"></canvas>
+    <div class="song-choice"> Song 1
+      <audio class="sound1">
+        <source src="http://soundjax.com/reddo/17350%5EClick02.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+    </div>
+    <div class="song-choice1"> Song 2
+      <audio class="sound1">
+        <source src="http://soundjax.com/reddo/17350%5EClick02.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+    </div>
+    <script type="application/javascript" src="lib/bundle.js" ></script>
     <script type="application/javascript" src="vendor/keymaster.js"></script>
-    <script type="application/javascript" src="lib/bundle.js"></script>
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
   </body>
 </html>
